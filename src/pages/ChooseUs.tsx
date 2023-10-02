@@ -6,7 +6,7 @@ const ChooseUs = () => {
     <div className="px-5 py-10">
       <div className="container mx-auto mb-10">
         <div className="border-2 border-purple-400 rounded-2xl p-5 flex flex-col lg:flex-row items-center justify-between gap-5">
-          <img src="/public/whats-new.png" alt="" className="w-full lg:w-1/3" />
+          <img src="/whats-new.png" alt="" className="w-full lg:w-1/3" />
 
           <div className="-full lg:w-2/3">
             <Heading
