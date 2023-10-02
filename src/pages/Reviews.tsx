@@ -6,9 +6,13 @@ const Reviews = () => {
       <div className="container mx-auto rounded-2xl bg-gradient-to-tr from-[rgba(255,255,255,0.05)] to-[rgba(255,255,255,0.05)] p-10">
         <Heading position="left" text="What they say about us" />
         <div className="bg-gradient-to-tr from-[rgba(255,255,255,0.05)] to-[rgba(255,255,255,0.08)] shadow-lg rounded-xl p-8 mt-10">
-          <div>
+          <div className="text-center md:text-start">
             <div>
-              <img src="/people.png" alt="" className="w-[80px] my-2" />
+              <img
+                src="/people.png"
+                alt=""
+                className="w-[80px] my-2 mx-auto md:mx-0"
+              />
               <h2 className="text-lg">John Smith</h2>
               <p className="text-sm my-2">Ape Market Place</p>
               <h1 className="my-5 text-xl md:text-3xl">Excellent Service</h1>
