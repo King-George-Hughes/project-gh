@@ -3,7 +3,7 @@ import { choose } from "../data/data";
 
 const ChooseUs = () => {
   return (
-    <div className="px-5 py-10">
+    <div className="px-5 py-10" id="choose-us">
       <div className="container mx-auto mb-10">
         <div className="border-2 border-purple-400 rounded-2xl p-5 flex flex-col lg:flex-row items-center justify-between gap-5">
           <img

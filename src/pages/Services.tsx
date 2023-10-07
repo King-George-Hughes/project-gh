@@ -3,7 +3,10 @@ import { service } from "../data/data";
 
 const Services = () => {
   return (
-    <div className="w-full px-4 py-5 text-center pb-20 mt-20 lg:mt-0">
+    <div
+      className="w-full px-4 py-5 text-center pb-20 mt-20 lg:mt-0"
+      id="services"
+    >
       <div className="container mx-auto">
         <Heading
           text="Our Services"

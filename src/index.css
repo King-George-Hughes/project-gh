@@ -5,3 +5,7 @@
 .bg-blur {
   backdrop-filter: blur(10px);
 }
+
+html {
+  scroll-behavior: smooth !important;
+}

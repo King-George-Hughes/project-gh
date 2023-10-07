@@ -3,7 +3,7 @@ import { work } from "../data/data";
 
 const RecentWorks = () => {
   return (
-    <div className="px-5 py-10">
+    <div className="px-5 py-10" id="recent-works">
       <div className="container mx-auto text-center">
         <Heading
           text="Our Recent Works"
