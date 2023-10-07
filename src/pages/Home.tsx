@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div className="w-full h-[780px] lg:h-screen px-4 py-5 flex items-center justify-center">
       <div className="container mx-auto gap-5 lg:gap-20 flex flex-col md:flex-row items-center justify-center mt-32 lg:mt-0">
-        <div className="w-full lg:w-1/2 text-center lg:text-start mt-20 lg:mt-0">
+        <div className="w-full lg:w-1/2 text-center lg:text-start pt-20 lg:pt-0">
           <h1 className="text-2xl lg:text-5xl max-w-lg font-semibold my-3">
             Simplify Your Business Operations with Our Solutions
           </h1>
