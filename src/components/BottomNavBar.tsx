@@ -9,7 +9,7 @@ const BottomNavBar = () => {
           className="inline-flex flex-col items-center justify-center px-5 rounded-l-full group"
         >
           <svg
-            className="w-5 h-5 mb-1 text-[#1A012E] dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+            className="w-5 h-5 mb-1 text-gray-600 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -34,7 +34,7 @@ const BottomNavBar = () => {
           className="inline-flex flex-col items-center justify-center px-5 group"
         >
           <svg
-            className="w-5 h-5 mb-1 text-[#1A012E] dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+            className="w-5 h-5 mb-1 text-gray-600 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -62,7 +62,7 @@ const BottomNavBar = () => {
           className="inline-flex flex-col items-center justify-center px-5 group"
         >
           <svg
-            className="w-5 h-5 mb-1 text-[#1A012E] dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+            className="w-5 h-5 mb-1 text-gray-600 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -93,7 +93,7 @@ const BottomNavBar = () => {
           className="inline-flex flex-col items-center justify-center px-5 rounded-r-full group"
         >
           <svg
-            className="w-5 h-5 mb-1 text-[#1A012E] dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+            className="w-5 h-5 mb-1 text-gray-600 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
