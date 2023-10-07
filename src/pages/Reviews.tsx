@@ -3,7 +3,7 @@ import { Heading } from "../components";
 const Reviews = () => {
   return (
     <div className="px-2 lg:px-5 py-10 mt-10">
-      <div className="container mx-auto rounded-2xl bg-gradient-to-tr from-[rgba(255,255,255,0.05)] to-[rgba(255,255,255,0.05)] p-5 lg:p-10">
+      <div className="container mx-auto rounded-2xl bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)] p-5 lg:p-10 shadow-lg">
         <Heading position="left" text="What they say about us" />
         <div className="bg-gradient-to-tr from-[rgba(255,255,255,0.05)] to-[rgba(255,255,255,0.08)] shadow-lg rounded-xl p-4 lg:p-8 mt-10">
           <div className="text-center md:text-start">
