@@ -1,6 +1,6 @@
 const BottomNavBar = () => {
   return (
-    <div className="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-transparent border border-gray-400 dark:border-gray-200 rounded-full bottom-4 left-1/2  bg-blur">
+    <div className="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-transparent border border-gray-300 dark:border-gray-200 rounded-full bottom-4 left-1/2  bg-blur">
       <div className="grid h-full max-w-lg grid-cols-4 mx-auto">
         <a
           href="#home"
