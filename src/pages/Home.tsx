@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div className="w-full h-[780px] lg:h-screen px-4 py-5 flex items-center justify-center">
       <div className="container mx-auto gap-5 lg:gap-20 flex flex-col md:flex-row items-center justify-center mt-32 lg:mt-0">
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 text-center lg:text-start mt-32 lg:mt-0">
           <h1 className="text-2xl lg:text-5xl max-w-lg font-semibold my-3">
             Simplify Your Business Operations with Our Solutions
           </h1>
@@ -10,7 +10,7 @@ const Home = () => {
             Streamline your workflows and boost productivity with our innovative
             solutions designed to meet your unique business
           </p>
-          <div className="flex items-center gap-5 my-10">
+          <div className="flex items-center justify-center lg:justify-start gap-5 my-10">
             <a
               className="bg-gradient-to-r from-[#B06CEF] to-[#4C62D8] text-white py-2 px-4 rounded-sm"
               href="#"
