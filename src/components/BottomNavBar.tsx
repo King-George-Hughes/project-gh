@@ -1,6 +1,6 @@
 const BottomNavBar = () => {
   return (
-    <div className="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-transparent border border-gray-200 rounded-full bottom-4 left-1/2  bg-blur">
+    <div className="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-transparent border border-gray-400 dark:border-gray-200 rounded-full bottom-4 left-1/2  bg-blur">
       <div className="grid h-full max-w-lg grid-cols-4 mx-auto">
         <a
           href="#home"
@@ -9,7 +9,7 @@ const BottomNavBar = () => {
           className="inline-flex flex-col items-center justify-center px-5 rounded-l-full group"
         >
           <svg
-            className="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+            className="w-5 h-5 mb-1 text-gray-800 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -34,7 +34,7 @@ const BottomNavBar = () => {
           className="inline-flex flex-col items-center justify-center px-5 group"
         >
           <svg
-            className="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+            className="w-5 h-5 mb-1 text-gray-800 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -62,7 +62,7 @@ const BottomNavBar = () => {
           className="inline-flex flex-col items-center justify-center px-5 group"
         >
           <svg
-            className="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+            className="w-5 h-5 mb-1 text-gray-800 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -93,7 +93,7 @@ const BottomNavBar = () => {
           className="inline-flex flex-col items-center justify-center px-5 rounded-r-full group"
         >
           <svg
-            className="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
+            className="w-5 h-5 mb-1 text-gray-800 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
