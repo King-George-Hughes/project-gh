@@ -1,24 +1,40 @@
 const service = [
   {
     id: 1,
-    title: "Cloud Backup Services",
+    title: "Software Development (Mobile, Desktop)",
     description:
       "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
     image: "/get-started.png",
   },
   {
     id: 2,
-    title: "VoIP (Voice Over Internet Protocol)",
+    title: "Website and Web App",
     description:
       "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
     image: "/stamp.png",
   },
   {
     id: 3,
-    title: "Data Backup and Restoration",
+    title:
+      "Data Analysis: Income Assurance, Reconciliation, Fraud Monitoring,Process Automation",
     description:
       "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
     image: "/whats-new.png",
+  },
+  {
+    id: 4,
+    title:
+      "Trainings (DBMS, Programming, Microsoft Power BI ,Systems Administration, Networking etc)",
+    description:
+      "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
+    image: "/stamp.png",
+  },
+  {
+    id: 5,
+    title: "Consulting (Information Systems Audit)",
+    description:
+      "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
+    image: "/get-started.png",
   },
 ];
 

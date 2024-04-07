@@ -13,7 +13,7 @@ const Services = () => {
           subText="We offer a range of services to help businesses and organizations leverage technlogy to acheive their goals and streamline their operations."
         />
 
-        <div className="w-full flex flex-col md:flex-row items-start justify-between gap-10 md:gap-12 mt-14 text-start">
+        <div className="w-full grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-14 text-start">
           {service.map((serve) => {
             const { id, title, description, image } = serve;
             return (
