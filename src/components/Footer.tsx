@@ -6,7 +6,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                projectGH
+                Revolt Technologies
               </span>
             </a>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a href="mailto:info@gmai.com" className="hover:underline ">
-                    info@gmai.com
+                    info@gmail.com
                   </a>
                 </li>
                 <li>
@@ -72,7 +72,7 @@ const Footer = () => {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
             <a href="#" className="hover:underline">
-              projectGH™
+              Revolt Technologies™
             </a>
             . All Rights Reserved.
           </span>

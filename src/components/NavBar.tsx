@@ -4,7 +4,7 @@ const NavBar = () => {
       <div className="container mx-auto flex items-center justify-between">
         <a href="#" className="text-2xl font-bold">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B06CEF] to-[#4C62D8]">
-            projectGH
+            Revolt Technologies
           </span>
         </a>
 
