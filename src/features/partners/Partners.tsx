@@ -11,7 +11,7 @@ const Partners = () => {
 
         {/* <!-- Grid --> */}
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3 lg:gap-6">
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto text-gray-800 dark:text-neutral-200"
               enable-background="new 0 0 2499 614"
@@ -25,7 +25,7 @@ const Partners = () => {
             </svg>
           </div>
 
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
               fill="none"
@@ -41,7 +41,7 @@ const Partners = () => {
             </svg>
           </div>
 
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
               viewBox="0 -8.881784197001252e-16 267.51517722360785 65.24679557585003"
@@ -56,7 +56,7 @@ const Partners = () => {
             </svg>
           </div>
 
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
               fill="none"
@@ -82,7 +82,7 @@ const Partners = () => {
             </svg>
           </div>
 
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
               xmlns="http://www.w3.org/2000/svg"
@@ -116,7 +116,7 @@ const Partners = () => {
             </svg>
           </div>
 
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
               width="2500"
@@ -136,7 +136,7 @@ const Partners = () => {
             </svg>
           </div>
 
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
               xmlns="http://www.w3.org/2000/svg"
@@ -164,7 +164,7 @@ const Partners = () => {
             </svg>
           </div>
 
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto text-gray-800 dark:text-neutral-200"
               xmlns="http://www.w3.org/2000/svg"
@@ -179,7 +179,7 @@ const Partners = () => {
             </svg>
           </div>
 
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
               xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +203,7 @@ const Partners = () => {
             </svg>
           </div>
 
-          <div className="p-4 md:p-7 bg-gradient-to-tr from-[rgba(0,0,0,0.1)] to-[rgba(0,0,0,0.1)] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
+          <div className="p-4 md:p-7 bg-gradient-to-tr from-[#bc9feb13] to-[#37196813] rounded-lg dark:bg-gradient-to-tr dark:from-[rgba(255,255,255,0.05)] dark:to-[rgba(255,255,255,0.05)]">
             <svg
               className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
               fill="none"
