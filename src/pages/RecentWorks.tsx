@@ -6,7 +6,7 @@ const RecentWorks = () => {
     <div className="px-5 py-10" id="recent-works">
       <div className="container mx-auto text-center">
         <Heading
-          text="Our Recent Works"
+          text="Our Recent Projects"
           subText="Here you ill find a list of out recent works that showcase our skills abd expertise."
         />
 

@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-transparent text-sm py-5">
+    <header
+      className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-transparent text-sm py-5"
+      id="home"
+    >
       <nav
         className="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8"
         aria-label="Global"
@@ -66,24 +69,24 @@ const NavBar = () => {
           >
             <div className="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
               <div className="flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid dark:divide-neutral-700">
-                <a
+                <Link
                   className="font-medium text-blue-600 py-3 md:py-6 dark:text-blue-500"
-                  href="#"
+                  to="/"
                   aria-current="page"
                 >
                   Home
-                </a>
+                </Link>
 
                 <a
                   className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-300"
-                  href="#"
+                  href="#services"
                 >
                   Services
                 </a>
 
                 <a
                   className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-300"
-                  href="#"
+                  href="#recent-works"
                 >
                   Projects
                 </a>
@@ -342,14 +345,18 @@ const NavBar = () => {
 
                       <div className="flex flex-col pt-4 md:pt-0 mx-1 md:mx-0">
                         <span className="text-sm font-semibold uppercase text-gray-800 dark:text-neutral-200">
-                          Customer stories
+                          Contact Us
                         </span>
 
                         <a
                           className="group mt-2 p-3 flex gap-x-5 items-center rounded-xl hover:bg-gray-100 dark:hover:bg-neutral-500/10"
                           href="#"
                         >
-                          Hollo World
+                          Lorem ipsum dolor, sit amet consectetur adipisicing
+                          elit. Voluptas qui fugiat illo repudiandae asperiores
+                          adipisci eum aperiam veniam. Repellendus recusandae
+                          suscipit tempora veritatis assumenda molestiae aliquid
+                          atque deleniti nostrum maiores.
                         </a>
                       </div>
                     </div>
