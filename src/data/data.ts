@@ -1,17 +1,19 @@
+import { analysis, softDev, webDev } from "../assets";
+
 const service = [
   {
     id: 1,
     title: "Software Development (Mobile, Desktop)",
     description:
       "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
-    image: "/get-started.png",
+    image: softDev,
   },
   {
     id: 2,
     title: "Website and Web App",
     description:
       "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
-    image: "/stamp.png",
+    image: webDev,
   },
   {
     id: 3,
@@ -19,7 +21,7 @@ const service = [
       "Data Analysis: Income Assurance, Reconciliation, Fraud Monitoring,Process Automation",
     description:
       "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
-    image: "/whats-new.png",
+    image: analysis,
   },
   {
     id: 4,
