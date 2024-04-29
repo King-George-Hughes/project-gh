@@ -107,12 +107,12 @@ const NavBar = () => {
                     </svg>
                   </button>
 
-                  <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 top-full start-0 min-w-60 md:shadow-2xl rounded-lg py-2 md:p-4 bg-[#37196813] dark:bg-[#3719689f] dark:divide-[#3719689f] backdrop-blur-sm before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
+                  <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 top-full start-0 min-w-60 md:shadow-2xl rounded-lg py-2 md:p-4 bg-[#37196813] dark:bg-[#3719689f] dark:divide-[#3719689f] backdrop-blur-md before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
                     <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="flex flex-col mx-1 md:mx-0">
                         <Link
                           className="group flex gap-x-5 hover:bg-gray-100 rounded-lg p-4 dark:text-neutral-200 dark:hover:bg-neutral-500/10"
-                          to="!#"
+                          to="#!"
                         >
                           <svg
                             className="flex-shrink-0 size-5 mt-1"
@@ -147,7 +147,7 @@ const NavBar = () => {
 
                         <Link
                           className="group flex gap-x-5 hover:bg-gray-100 rounded-lg p-4 dark:text-neutral-200 dark:hover:bg-neutral-500/10"
-                          to="!#"
+                          to="#!"
                         >
                           <svg
                             className="flex-shrink-0 size-5 mt-1"
@@ -179,7 +179,7 @@ const NavBar = () => {
 
                         <Link
                           className="group flex gap-x-5 hover:bg-gray-100 rounded-lg p-4 dark:text-neutral-200 dark:hover:bg-neutral-500/10"
-                          to="#"
+                          to="#!"
                         >
                           <svg
                             className="flex-shrink-0 size-5 mt-1"
@@ -209,7 +209,7 @@ const NavBar = () => {
                               Artificial Intelligence (AI)
                             </p>
                             <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300 mt-2">
-                              Pyhon Matery
+                              Pyhon Mastery
                             </p>
                             <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
                               Machine Learning
@@ -219,9 +219,9 @@ const NavBar = () => {
                       </div>
 
                       <div className="flex flex-col mx-1 md:mx-0">
-                        <a
+                        <Link
                           className="group flex gap-x-5 hover:bg-gray-100 rounded-lg p-4 dark:text-neutral-200 dark:hover:bg-neutral-500/10"
-                          href="#"
+                          to="#!"
                         >
                           <svg
                             className="flex-shrink-0 size-5 mt-1"
@@ -247,7 +247,7 @@ const NavBar = () => {
                               Learn how to install, set up, and use Preline.
                             </p>
                           </div>
-                        </a>
+                        </Link>
 
                         <a
                           className="group flex gap-x-5 hover:bg-gray-100 rounded-lg p-4 dark:text-neutral-200 dark:hover:bg-neutral-500/10"
@@ -301,11 +301,19 @@ const NavBar = () => {
                           </svg>
                           <div className="grow">
                             <p className="font-medium text-gray-800 dark:text-neutral-200">
-                              Community Forum
+                              System Administration & Networking
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300 mt-2">
+                              Hardware, Operating Systems
                             </p>
                             <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
-                              Learn, share, and connect with other Preline
-                              users.
+                              Installation and Configuration
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              Monitoring and Alerting
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              Troubleshooting, etc.
                             </p>
                           </div>
                         </a>
