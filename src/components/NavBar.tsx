@@ -110,9 +110,9 @@ const NavBar = () => {
                   <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 top-full start-0 min-w-60 md:shadow-2xl rounded-lg py-2 md:p-4 bg-[#37196813] dark:bg-[#3719689f] dark:divide-[#3719689f] backdrop-blur-sm before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
                     <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="flex flex-col mx-1 md:mx-0">
-                        <a
+                        <Link
                           className="group flex gap-x-5 hover:bg-gray-100 rounded-lg p-4 dark:text-neutral-200 dark:hover:bg-neutral-500/10"
-                          href="#"
+                          to="!#"
                         >
                           <svg
                             className="flex-shrink-0 size-5 mt-1"
@@ -131,18 +131,23 @@ const NavBar = () => {
                           </svg>
                           <div className="grow">
                             <p className="font-medium text-gray-800 dark:text-neutral-200">
-                              Support Docs
+                              Web Development
                             </p>
-                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-500 dark:group-hover:text-neutral-200">
-                              Explore advice and explanations for all of
-                              Preline's features.
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300 mt-2">
+                              HTML, CSS, JavaScript
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              React, Vue
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              PHP, Node js, Asp.Net Core
                             </p>
                           </div>
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                           className="group flex gap-x-5 hover:bg-gray-100 rounded-lg p-4 dark:text-neutral-200 dark:hover:bg-neutral-500/10"
-                          href="#"
+                          to="!#"
                         >
                           <svg
                             className="flex-shrink-0 size-5 mt-1"
@@ -161,18 +166,20 @@ const NavBar = () => {
                           </svg>
                           <div className="grow">
                             <p className="font-medium text-gray-800 dark:text-neutral-200">
-                              Integrations
+                              App development
                             </p>
-                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-500 dark:group-hover:text-neutral-200">
-                              Discover the huge range of tools that Preline
-                              integrates with.
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300 mt-2">
+                              React Native, Flutter and Dart
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              Xamarine Forms
                             </p>
                           </div>
-                        </a>
+                        </Link>
 
-                        <a
+                        <Link
                           className="group flex gap-x-5 hover:bg-gray-100 rounded-lg p-4 dark:text-neutral-200 dark:hover:bg-neutral-500/10"
-                          href="#"
+                          to="#"
                         >
                           <svg
                             className="flex-shrink-0 size-5 mt-1"
@@ -199,14 +206,16 @@ const NavBar = () => {
                           </svg>
                           <div className="grow">
                             <p className="font-medium text-gray-800 dark:text-neutral-200">
-                              API Reference
+                              Artificial Intelligence (AI)
                             </p>
-                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-500 dark:group-hover:text-neutral-200">
-                              Build custom integrations with our first-className
-                              API.
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300 mt-2">
+                              Pyhon Matery
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              Machine Learning
                             </p>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="flex flex-col mx-1 md:mx-0">
@@ -234,7 +243,7 @@ const NavBar = () => {
                             <p className="font-medium text-gray-800 dark:text-neutral-200">
                               Help Center
                             </p>
-                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-500 dark:group-hover:text-neutral-200">
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
                               Learn how to install, set up, and use Preline.
                             </p>
                           </div>
@@ -263,7 +272,7 @@ const NavBar = () => {
                             <p className="font-medium text-gray-800 dark:text-neutral-200">
                               Developer Hub
                             </p>
-                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-500 dark:group-hover:text-neutral-200">
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
                               Learn how to integrate or build on top of Preline.
                             </p>
                           </div>
@@ -294,7 +303,7 @@ const NavBar = () => {
                             <p className="font-medium text-gray-800 dark:text-neutral-200">
                               Community Forum
                             </p>
-                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-500 dark:group-hover:text-neutral-200">
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
                               Learn, share, and connect with other Preline
                               users.
                             </p>
