@@ -5,14 +5,14 @@ const service = [
     id: 1,
     title: "Software Development (Mobile, Desktop)",
     description:
-      "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
+      "Craft exceptional user experiences. From touchscreens to desktops, we deliver the perfect software solutions for any device....",
     image: softDev,
   },
   {
     id: 2,
     title: "Website and Web App",
     description:
-      "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
+      "Need a digital presence? We build websites and web apps that bring your ideas to life. Boost your reach and engagement. Websites and web apps made easy...",
     image: webDev,
   },
   {
@@ -20,7 +20,7 @@ const service = [
     title:
       "Data Analysis: Income Assurance, Reconciliation, Fraud Monitoring,Process Automation",
     description:
-      "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
+      "Streamline operations, safeguard revenue, and empower growth. Our data analysis unlocks actionable insights for income...",
     image: analysis,
   },
   {
@@ -28,14 +28,14 @@ const service = [
     title:
       "Trainings (DBMS, Programming, Microsoft Power BI ,Systems Administration, Networking etc)",
     description:
-      "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
+      "Upskill your career: Master in-demand skills like DBMS, Programming, Power BI, SysAdmin & Networking...",
     image: training,
   },
   {
     id: 5,
     title: "Consulting (Information Systems Audit)",
     description:
-      "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
+      "Secure your data and ensure compliance. Our expert ISA consultants identify vulnerabilities and guide you towards a robust IT infrastructure...",
     image: consult,
   },
 ];
