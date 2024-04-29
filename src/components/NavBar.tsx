@@ -169,10 +169,16 @@ const NavBar = () => {
                               App development
                             </p>
                             <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300 mt-2">
-                              React Native, Flutter and Dart
+                              React Native
                             </p>
                             <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
                               Xamarine Forms
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              Flutter and Dart
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              Java, Kotlin
                             </p>
                           </div>
                         </Link>
@@ -270,17 +276,26 @@ const NavBar = () => {
                           </svg>
                           <div className="grow">
                             <p className="font-medium text-gray-800 dark:text-neutral-200">
-                              Developer Hub
+                              Database Management Systems (DBMS)
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300 mt-2">
+                              Database Design
                             </p>
                             <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
-                              Learn how to integrate or build on top of Preline.
+                              SQL (Structured Query Language)
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              Entity-Relationship Model (ER Model)
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              Database Security, etc
                             </p>
                           </div>
                         </a>
 
-                        <a
+                        <Link
                           className="group flex gap-x-5 hover:bg-gray-100 rounded-lg p-4 dark:text-neutral-200 dark:hover:bg-neutral-500/10"
-                          href="#"
+                          to="#!"
                         >
                           <svg
                             className="flex-shrink-0 size-5 mt-1"
@@ -310,13 +325,10 @@ const NavBar = () => {
                               Installation and Configuration
                             </p>
                             <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
-                              Monitoring and Alerting
-                            </p>
-                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
-                              Troubleshooting, etc.
+                              Monitoring, Alerting, Troubleshooting, etc.
                             </p>
                           </div>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="flex flex-col pt-4 md:pt-0 mx-1 md:mx-0">
