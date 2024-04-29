@@ -250,10 +250,16 @@ const NavBar = () => {
                           </svg>
                           <div className="grow">
                             <p className="font-medium text-gray-800 dark:text-neutral-200">
-                              Help Center
+                              Microsoft Power BI
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300 mt-2">
+                              Data Import and Transformation
                             </p>
                             <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
-                              Learn how to install, set up, and use Preline.
+                              Data Modeling
+                            </p>
+                            <p className="text-sm text-gray-500 group-hover:text-gray-800 dark:text-neutral-300 dark:group-hover:text-neutral-300">
+                              Automation and Workflows, etc
                             </p>
                           </div>
                         </Link>
