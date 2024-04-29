@@ -2,14 +2,17 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-transparent text-sm py-3 md:py-0">
+    <header className="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-transparent text-sm py-5">
       <nav
         className="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8"
         aria-label="Global"
       >
         <div className="relative md:flex md:items-center md:justify-between">
           <div className="flex items-center justify-between">
-            <Link to="/" className="text-lg lg:text-2xl font-bold">
+            <Link
+              to="/"
+              className="text-lg lg:text-3xl font-bold whitespace-nowrap"
+            >
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#B06CEF] to-[#4C62D8]">
                 Revolt Technologies
               </span>
@@ -349,7 +352,7 @@ const NavBar = () => {
 
                 <Link
                   className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-300"
-                  to="!#"
+                  to="#!"
                 >
                   Calendars
                 </Link>
@@ -357,7 +360,7 @@ const NavBar = () => {
                 <div className="pt-3 md:pt-0">
                   <Link
                     className="bg-gradient-to-r from-[#B06CEF] to-[#4C62D8] text-white py-2 px-4 rounded-sm"
-                    to="!#"
+                    to="#!"
                   >
                     Get in Touch
                   </Link>
