@@ -1,4 +1,4 @@
-import { analysis, softDev, webDev } from "../assets";
+import { analysis, consult, softDev, training, webDev } from "../assets";
 
 const service = [
   {
@@ -29,14 +29,14 @@ const service = [
       "Trainings (DBMS, Programming, Microsoft Power BI ,Systems Administration, Networking etc)",
     description:
       "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
-    image: "/stamp.png",
+    image: training,
   },
   {
     id: 5,
     title: "Consulting (Information Systems Audit)",
     description:
       "The cloud is a versatile platform capable of supporting numerous virtual services, such as operating systems...",
-    image: "/get-started.png",
+    image: consult,
   },
 ];
 
