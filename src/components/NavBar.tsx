@@ -72,14 +72,14 @@ const NavBar = () => {
                 </a>
 
                 <a
-                  className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
+                  className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-300"
                   href="#"
                 >
                   Services
                 </a>
 
                 <a
-                  className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
+                  className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-300"
                   href="#"
                 >
                   Projects
@@ -88,7 +88,7 @@ const NavBar = () => {
                 <div className="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] py-3 md:py-4">
                   <button
                     type="button"
-                    className="flex items-center w-full text-gray-500 hover:text-gray-400 font-medium dark:text-neutral-400 dark:hover:text-neutral-500"
+                    className="flex items-center w-full text-gray-500 hover:text-gray-400 font-medium dark:text-neutral-200 dark:hover:text-neutral-300"
                   >
                     Training
                     <svg
@@ -107,7 +107,7 @@ const NavBar = () => {
                     </svg>
                   </button>
 
-                  <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 top-full start-0 min-w-60 bg-white md:shadow-2xl rounded-lg py-2 md:p-4 dark:bg-neutral-800 dark:divide-neutral-700 before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
+                  <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 top-full start-0 min-w-60 md:shadow-2xl rounded-lg py-2 md:p-4 bg-[#37196813] dark:bg-[#3719689f] dark:divide-[#3719689f] backdrop-blur-sm before:absolute before:-top-5 before:start-0 before:w-full before:h-5">
                     <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="flex flex-col mx-1 md:mx-0">
                         <a
@@ -311,55 +311,27 @@ const NavBar = () => {
                           className="group mt-2 p-3 flex gap-x-5 items-center rounded-xl hover:bg-gray-100 dark:hover:bg-neutral-500/10"
                           href="#"
                         >
-                          <img
-                            className="size-32 rounded-lg"
-                            src="https://images.unsplash.com/photo-1648737967328-690548aec14f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=320&q=80"
-                            alt="Image Description"
-                          />
-                          <div className="grow">
-                            <p className="text-sm text-gray-800 dark:text-neutral-400">
-                              Preline Projects has proved to be most efficient
-                              cloud based project tracking and bug tracking
-                              tool.
-                            </p>
-                            <p className="mt-3 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 hover:underline font-medium dark:text-blue-400 dark:hover:text-blue-500">
-                              Learn more
-                              <svg
-                                className="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              >
-                                <path d="m9 18 6-6-6-6" />
-                              </svg>
-                            </p>
-                          </div>
+                          Hollo World
                         </a>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <a
-                  className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-400 dark:hover:text-neutral-500"
-                  href="#"
+                <Link
+                  className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-300"
+                  to="!#"
                 >
                   Calendars
-                </a>
+                </Link>
 
                 <div className="pt-3 md:pt-0">
-                  <a
+                  <Link
                     className="bg-gradient-to-r from-[#B06CEF] to-[#4C62D8] text-white py-2 px-4 rounded-sm"
-                    href="#"
+                    to="!#"
                   >
                     Get in Touch
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
