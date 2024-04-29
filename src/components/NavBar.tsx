@@ -70,7 +70,7 @@ const NavBar = () => {
             <div className="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500">
               <div className="flex flex-col gap-x-0 mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:ps-7 md:divide-y-0 md:divide-solid dark:divide-neutral-700">
                 <Link
-                  className="font-medium text-blue-600 py-3 md:py-6 dark:text-blue-500"
+                  className="font-medium text-gray-500 hover:text-gray-400 py-3 md:py-6 dark:text-neutral-200 dark:hover:text-neutral-300"
                   to="/"
                   aria-current="page"
                 >
